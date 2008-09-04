@@ -1,0 +1,25 @@
+[user]
+	name = Mando Escamilla
+	email = mando@mando.org
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+[core]
+	excludesfile = /Users/mando/.gitignore
+[apply]
+	whitespace = nowarn
